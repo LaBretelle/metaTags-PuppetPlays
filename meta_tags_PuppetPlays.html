@@ -1,0 +1,63 @@
+<head profile="http://dublincore.org/documents/2008/08/04/dc-html/">
+
+<title>Expressing Dublin Core™ in HTML/XHTML meta and link elements</title> <!-- mettre le titre de la pièce -->
+
+<!-- balises Dublin Core. Documentation ici : https://www.dublincore.org/specifications/dublin-core/usageguide/2000-07-16/simple-html/ -->
+
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /> <!-- déclaration des 15 balises DC -->
+
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" /> <!-- déclaration des balises complémentaires DCTERMS -->
+
+<meta name="DC.title" lang="en" content="Expressing Dublin Core™ in HTML/XHTML meta and link elements" /> <!-- le titre de la pièce, avec la langue du titre à changer en fonction de la langue de l'interface -->
+
+<meta name="DC.creator" content="Andy Powell, UKOLN, University of Bath" /> <!-- mettre le nom de l'auteur du livre. S'il y a plus de deux auteurs, il faut mettre copier cette balise autant de fois qu'il y a d'auteurs -->
+
+<meta name="DC.date" scheme="DCTERMS.W3CDTF" content="2003-04-03" /> <!-- la date du texte, au format AAAA-MM-JJ -->
+
+<meta name="DC.identifier" scheme="DCTERMS.URI" content="http://dublincore.org/specifications/dublin-core/dcq-html/" /> <!-- mettre ici le DOI de chaque ressource -->
+
+<meta name="DCTERMS.abstract" content="This document describes how qualified Dublin Core™ metadata can be encoded in HTML/XHTML &lt;meta&gt; elements" /> <!-- mettre le résumé de la pièce -->
+
+<meta name="DC.format" scheme="DCTERMS.IMT" content="text/html" /> <!-- le format : text/html si c'est une page, pdf, etc... -->
+
+<meta name="DC.type" scheme="DCTERMS.DCMIType" content="Text" /> <!-- À choisir dans la liste : Text, StillImage, Sound, Software, Service, PhysicalObject, MovingImage, InteractiveResource, Image, Event, Dataset, Collection -->
+
+<meta name="DC.subject" lang="fr" content="HTML, document, Dublin Core" /> <!-- mettre les mots clés du document -->
+
+<meta name="DC.language" scheme="DCTERMS.RFC4646" content="fr-FR" /> <!-- mettre l'identification de langue selon la norme IETF, c'est à dire fr-FR pour la France, en-GB pour l'Angleterre,... liste ici : https://gist.github.com/msikma/8912e62ed866778ff8cd -->
+
+<meta name="DC.description" lang="fr" content="Mon premier document HTML avec métadonnées" /> <!-- mettre la langue dans "lang" et le résumé de la pièce dans "content" -->
+
+<meta name="DC.publisher" content="ERC project PuppetPlays AdG GA 835193" /> <!-- mettre le nom de PuppetPlays comme je viens de le faire -->
+
+<meta name="DC.rights" content="Public domain" /> <!-- mettre la licence renseignée dans la base de données -->
+
+<!-- balises open graph documentation ici : https://ogp.me/ -->
+
+<meta property="og:title" content="Le titre du livre" /> <!-- le titre de l'oeuvre -->
+
+<meta property="og:type" content="book" /> <!-- mettre book si c'est un livre, sinon choisir parmi : book, article, profile, video, music, image,... doc ici : https://ogp.me/#types -->
+
+<meta property="og:url" content="https://www.imdb.com/title/tt0117500/" /> <!-- l'URL stable de la ressource, donc le DOI -->
+
+<meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" /> <!-- mettre l'URL de l'image illustrant l'oeuvre -->
+
+<meta property="og:audio" content="https://example.com/bond/theme.mp3" /> <!-- mettre l'URL de l'enregistrement sonore si on en possède une -->
+
+<meta property="og:video" content="https://example.com/bond/trailer.swf" /> <!-- mettre l'URL de l'enregistrement vidéo si on en possède une -->
+
+<meta property="og:description" content="Sean Connery found fame and fortune as the suave, sophisticated British agent, James Bond." /> <!-- y placer la description de l'oeuvre -->
+
+<meta property="og:site_name" content="PuppetPlays.eu" /> <!-- mettre l'URL du site PuppetPlays -->
+
+<!-- les balises google scholar, documentation : https://scholar.google.com/intl/en-us/scholar/inclusion.html#indexing -->
+
+<meta name="citation_title" content="The testis isoform of the phosphorylase kinase catalytic subunit"> <!-- mettre le titre de l'oeuvre -->
+
+<meta name="citation_author" content="Liu, Li"> <!-- mettre le nom de l'auteur, et multiplier cette balise pour chaque auteur -->
+
+<meta name="citation_publication_date" content="1996-05-17"> <!-- mettre la date de l'oeuvre, format YYYY-MM-DD -->
+
+<meta name="citation_pdf_url" content="http://www.example.com/content/271/20/11761.full.pdf"> <!-- mettre l'URL vers le PDF -->
+
+</head>
